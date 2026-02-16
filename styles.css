@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com'); /* <-- Borrowed this one */
+
+body {
+    font-family: 'Roboto', sans-serif; /* <-- That applies here */
+    padding: 0;
+    margin: 0;
+}
+
+.main_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body > * {
+    padding: 0 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+.content_1 {
+    display: flex;
+    align-items: center;
+    padding: 3% 10%;
+    gap: 3%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.sidecontent {
+    flex: 1;
+}
+
+.sidecontent h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sidecontent button {
+    background-color: #3886F6;
+    color: #E5E7EB;
+    padding: 5px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+img {
+    flex: 1;
+    background-color: rgb(150,150,150);
+    padding-top: 95.5px;
+    padding-bottom: 95.5px;
+}
+
+.footer {
+    display: flex;
+    flex: 1 1 75px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
