@@ -62,9 +62,10 @@ a {
 .sidecontent button {
     background-color: #3886F6;
     color: #E5E7EB;
-    padding: 5px 24px;
+    padding: 8px 24px;
     border-radius: 8px;
     font-weight: bold;
+    border: none;
 }
 
 img {
@@ -72,6 +73,93 @@ img {
     background-color: rgb(150,150,150);
     padding-top: 95.5px;
     padding-bottom: 95.5px;
+    text-align: center;
+}
+
+.content_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3886F6;
+    border-radius: 12px;
+}
+
+.content-box p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote > :first-child {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+    margin: 0 0 5% 0;
+}
+
+.ad_display {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3886F6;
+    /*border-radius: 20px;
+        Temporally disable until expanding the padding outwards (without affecting the content inside)
+    */
+}
+
+.ad_text {
+    color: #E5E7EB;
+}
+
+.call_action {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.ad_text p {
+    margin: 0;
+}
+
+.ad_button {
+    background-color: #3886F6;
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB;
+    font-weight: bold;
+    padding: 4px 30px;
+    border-radius: 4px;
 }
 
 .footer {
