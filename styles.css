@@ -131,13 +131,22 @@ img {
     margin: 0 0 5% 0;
 }
 
+/*
+    Content 3 was created for the only purpose of giving a square space to ad_display
+    Porcentage based padding and margin are great?
+*/
+
+.content_3 {
+    margin: 5% 0;
+    padding: 0 2%;
+}
+
 .ad_display {
+    padding: 3% 8%;
     display: flex;
     justify-content: space-between;
     background-color: #3886F6;
-    /*border-radius: 20px;
-        Temporally disable until expanding the padding outwards (without affecting the content inside)
-    */
+    border-radius: 10px;
 }
 
 .ad_text {
